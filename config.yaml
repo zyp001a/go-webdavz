@@ -1,0 +1,12 @@
+scope: test
+address: 0.0.0.0
+port: 8080
+users:
+  - username: admin
+    password: admin
+  - username: guest
+    password: guest
+    modify: false
+  - username: user1
+    password: user1
+    scope: test/user1
